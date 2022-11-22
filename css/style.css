@@ -1,5 +1,5 @@
 html:root {
-        --body-bg-color: #121214;
+        --body-bg-color: #282828;
         --text-color: #E1E1E6;
         --title-color: #04D361;
         --form-color: #A8A8A8;
@@ -20,7 +20,7 @@ body {
 }
 
 .container-image {
-    background-image: url("../assets/read_news.jpg");
+    background-image: url("../assets/images/read_news.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -28,7 +28,7 @@ body {
     z-index: -1;
 }
 
-.textos {
+div.textos {
     display: flex;
     flex-direction: column;
     gap: 10px; 

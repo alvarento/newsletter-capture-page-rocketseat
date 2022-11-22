@@ -1,0 +1,49 @@
+body {
+    max-width: 100vh;
+    max-height: 100vh;
+    display: block;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #282828;
+}
+
+.container-image {
+    display: none;
+}
+
+.container-text > * {
+    margin-left: 0;
+}
+
+section #logo {
+    width: 90%;
+    margin-top: 5px;
+}
+
+form {
+    width: 95%;
+}
+
+form div {
+    width: 100%;
+}
+
+div.textos {
+    padding: 0 5px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    font-size: .8rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
